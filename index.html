@@ -23,7 +23,9 @@
   <div class="content">
     <div class="top">
         <input id="input" type="text">
-        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button onclick="checkWeather();">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
     </div>
     <div class="image">
         <img src="sun.webp" alt="sun">
@@ -34,14 +36,14 @@
             <div class="left">
                 <i class="fa-solid fa-water"></i>
                 <div class="text">
-                    <span>52%</span>
+                    <span id="humidity">52%</span>
                     <span>Humidity</span>
                 </div>
             </div>
             <div class="right">
                 <i class="fa-solid fa-wind"></i>
                 <div class="text">
-                    <span>5.66km/h</span>
+                    <span id="wind">5.66km/h</span>
                     <span>Wind Speed</span>
                 </div>
             </div>
